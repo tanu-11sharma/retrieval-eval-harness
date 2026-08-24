@@ -1,0 +1,42 @@
+[
+  {
+    "query_id": "q1",
+    "query": "How does retrieval augmented generation work?",
+    "relevant_doc_ids": ["d1", "d10", "d12"]
+  },
+  {
+    "query_id": "q2",
+    "query": "What is BM25 and how does hybrid search use it?",
+    "relevant_doc_ids": ["d3", "d11"]
+  },
+  {
+    "query_id": "q3",
+    "query": "How do you measure retrieval quality with precision recall and MRR?",
+    "relevant_doc_ids": ["d4", "d5", "d12"]
+  },
+  {
+    "query_id": "q4",
+    "query": "How do multi-agent systems and MCP tools connect to external data?",
+    "relevant_doc_ids": ["d7", "d8"]
+  },
+  {
+    "query_id": "q5",
+    "query": "How does reranking improve results from a vector database?",
+    "relevant_doc_ids": ["d2", "d9", "d10"]
+  },
+  {
+    "query_id": "q6",
+    "query": "How should long documents be chunked before embedding?",
+    "relevant_doc_ids": ["d6", "d10"]
+  },
+  {
+    "query_id": "q7",
+    "query": "How do guardrails keep an LLM application safe?",
+    "relevant_doc_ids": ["d13"]
+  },
+  {
+    "query_id": "q8",
+    "query": "What framework can be used to build a small evaluation API?",
+    "relevant_doc_ids": ["d14"]
+  }
+]
