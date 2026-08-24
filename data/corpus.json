@@ -1,0 +1,17 @@
+[
+  {"id": "d1", "title": "Intro to RAG", "text": "Retrieval augmented generation combines a retriever with a language model. The retriever fetches relevant documents from a corpus and the generator conditions its answer on those documents."},
+  {"id": "d2", "title": "Vector Databases", "text": "Vector databases like FAISS, Pinecone, and Qdrant store dense embeddings and support approximate nearest neighbor search for semantic retrieval at scale."},
+  {"id": "d3", "title": "BM25 Ranking", "text": "BM25 is a sparse lexical ranking function based on term frequency and inverse document frequency, widely used as a strong retrieval baseline."},
+  {"id": "d4", "title": "Precision and Recall", "text": "Precision measures the fraction of retrieved documents that are relevant. Recall measures the fraction of relevant documents that were retrieved."},
+  {"id": "d5", "title": "Mean Reciprocal Rank", "text": "Mean reciprocal rank scores a ranked list by the inverse of the position of the first relevant result, averaged across queries."},
+  {"id": "d6", "title": "Chunking Strategies", "text": "Document chunking splits long text into smaller passages before embedding, balancing context length against retrieval granularity."},
+  {"id": "d7", "title": "Multi-Agent Orchestration", "text": "Multi-agent systems coordinate specialized agents such as planners, retrievers, and writers using frameworks like LangGraph or CrewAI."},
+  {"id": "d8", "title": "Model Context Protocol", "text": "MCP is an open protocol that lets language model applications connect to external tools and data sources through a standardized interface."},
+  {"id": "d9", "title": "Cross-Encoder Reranking", "text": "Cross-encoder rerankers jointly encode a query and candidate document to produce a more accurate relevance score than bi-encoder retrieval alone."},
+  {"id": "d10", "title": "Embedding Models", "text": "Embedding models map text into dense vectors such that semantically similar texts end up close together in vector space."},
+  {"id": "d11", "title": "Hybrid Search", "text": "Hybrid search combines sparse lexical signals like BM25 with dense vector similarity to improve retrieval robustness across query types."},
+  {"id": "d12", "title": "Evaluation Datasets", "text": "A labeled query set, sometimes called qrels, pairs queries with the document ids judged relevant, enabling offline retrieval evaluation."},
+  {"id": "d13", "title": "Guardrails for LLM Apps", "text": "Guardrails validate and filter model inputs and outputs, catching PII leakage, unsafe content, and out-of-scope requests before they reach users."},
+  {"id": "d14", "title": "FastAPI Basics", "text": "FastAPI is a Python web framework for building APIs with automatic validation and interactive documentation based on type hints."},
+  {"id": "d15", "title": "Prompt Engineering", "text": "Prompt engineering is the practice of designing inputs to a language model to reliably elicit a desired behavior or output format."}
+]
